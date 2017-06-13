@@ -1,0 +1,2 @@
+json=com.alibaba.json.JsonProtocol
+hjson=com.alibaba.json.HttpJsonProtocol
