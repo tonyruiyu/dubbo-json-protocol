@@ -15,13 +15,13 @@
 ## web.xml config 
 ```xml
 <servlet>
-  <servlet-name>dubbo</servlet-name>
-	<servlet-class>com.alibaba.dubbo.remoting.http.servlet.DispatcherServlet</servlet-class>
-	<load-on-startup>1</load-on-startup>
+  <servlet-name>dubbo</servlet-name>
+  <servlet-class>com.alibaba.dubbo.remoting.http.servlet.DispatcherServlet</servlet-class>
+  <load-on-startup>1</load-on-startup>
 </servlet>
 <servlet-mapping>
-	<servlet-name>dubbo</servlet-name>
-	<url-pattern>/dubbo/*</url-pattern>
+  <servlet-name>dubbo</servlet-name>
+  <url-pattern>/dubbo/*</url-pattern>
 </servlet-mapping>
 ```
 
